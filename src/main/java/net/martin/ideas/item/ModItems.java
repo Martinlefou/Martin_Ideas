@@ -1,6 +1,7 @@
-package net.martin.ideas;
+package net.martin.ideas.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.martin.ideas.MartinIdeas;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;

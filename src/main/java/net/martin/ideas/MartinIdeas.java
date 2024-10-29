@@ -2,6 +2,8 @@ package net.martin.ideas;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.martin.ideas.item.ModItemGroups;
+import net.martin.ideas.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +13,8 @@ public class MartinIdeas implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 	}
 }
