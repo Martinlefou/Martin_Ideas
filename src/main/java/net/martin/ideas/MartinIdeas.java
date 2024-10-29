@@ -11,5 +11,6 @@ public class MartinIdeas implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 	}
 }
